@@ -105,7 +105,7 @@ public class Tests {
 		newTaskModule.takeScreenShotWithName("End Of Test");
 		
 		
-		Reporter.log("Task created successfully",true);
+		Reporter.log("TaskList and task are created successfully",true);
 		Thread.sleep(2000);
 
 	}
