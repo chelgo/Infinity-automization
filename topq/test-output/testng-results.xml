@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login the user name and password.]]>
+    </line>
+    <line>
+      <![CDATA[Click the login button and go to the main page]]>
+    </line>
+    <line>
+      <![CDATA[Go to tasks page, click new list, type list name, click add new task button]]>
+    </line>
+    <line>
+      <![CDATA[Go back to tasklist page, move the screen to show the added tasklist]]>
+    </line>
+    <line>
+      <![CDATA[Click on add new task for this specified list]]>
+    </line>
+    <line>
+      <![CDATA[Type name, who should do, click save, click cancel link for second task ]]>
+    </line>
+    <line>
+      <![CDATA[Task created successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28401" started-at="2016-01-04T07:56:30Z" finished-at="2016-01-04T07:56:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28401" started-at="2016-01-04T07:56:30Z" finished-at="2016-01-04T07:56:58Z">
+      <class name="com.ilad.test.Tests">
+        <test-method status="PASS" signature="setFramework()[pri:0, instance:com.ilad.test.Tests@134580e3]" name="setFramework" is-config="true" duration-ms="4722" started-at="2016-01-04T09:56:30Z" finished-at="2016-01-04T09:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFramework -->
+        <test-method status="PASS" signature="testAddTask(java.lang.String, java.lang.String)[pri:0, instance:com.ilad.test.Tests@134580e3]" name="testAddTask" duration-ms="20105" started-at="2016-01-04T09:56:34Z" data-provider="pvdUserNameAndPassword" finished-at="2016-01-04T09:56:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c28]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[end exercises]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login the user name and password.]]>
+            </line>
+            <line>
+              <![CDATA[Click the login button and go to the main page]]>
+            </line>
+            <line>
+              <![CDATA[Go to tasks page, click new list, type list name, click add new task button]]>
+            </line>
+            <line>
+              <![CDATA[Go back to tasklist page, move the screen to show the added tasklist]]>
+            </line>
+            <line>
+              <![CDATA[Click on add new task for this specified list]]>
+            </line>
+            <line>
+              <![CDATA[Type name, who should do, click save, click cancel link for second task ]]>
+            </line>
+            <line>
+              <![CDATA[Task created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddTask -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.ilad.test.Tests@134580e3]" name="CloseDriver" is-config="true" duration-ms="3560" started-at="2016-01-04T09:56:54Z" finished-at="2016-01-04T09:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.ilad.test.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
